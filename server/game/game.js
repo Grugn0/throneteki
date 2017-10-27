@@ -971,6 +971,7 @@ class Game extends EventEmitter {
 
             return {
                 currentFlowStep: this.currentFlowStep,
+                currentChallengeType: this.currentChallenge?this.currentChallenge.challengeType:undefined,
                 id: this.id,
                 isMelee: this.isMelee,
                 name: this.name,
